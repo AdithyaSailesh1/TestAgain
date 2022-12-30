@@ -58,6 +58,8 @@ void DeleteB(){
             prev=temp;
             temp=temp->next;
         }
+        int del=prev->data;
+        printf("%d Deleted value is",del);
         prev->next=NULL;
     }
 }
